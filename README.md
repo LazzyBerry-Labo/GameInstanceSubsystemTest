@@ -1,2 +1,11 @@
 # GameInstanceSubsystemTest
 プログラミングサブシステムを試してみた
+
+
+ログを出力するGameInstanceSubSystemを作成
+１.MyGameInstanceSubsystem
+　⇒ログを出力するファンクションあり。
+　　GISubsystemTestActorのBeginPlay時に呼び出されている
+
+2.MyTickableGameInstanceSubsystem
+  ⇒Tick毎にログを出力する
